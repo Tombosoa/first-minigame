@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/sky.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: crosshair;
+}
+.text-white{
+    color: white;
+    user-select: none;
+} 
+.bg-white{
+    width: 560px;
+    height: 200px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: auto;
+}
+.fixed1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+}
+h1, p{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+button{
+    position: relative;
+    top: 10px;
+    border: none;
+    background-color: rgb(58, 58, 196);
+    width: 280px;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(47, 47, 143);
+}
